@@ -60,6 +60,29 @@ export interface SharedFeaturedProductsSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFooterLink extends Struct.ComponentSchema {
+  collectionName: 'components_shared_footer_links';
+  info: {
+    displayName: 'FooterLink';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    url: Schema.Attribute.String;
+  };
+}
+
+export interface SharedFooterSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_footer_sections';
+  info: {
+    displayName: 'FooterSection';
+  };
+  attributes: {
+    discoverLinks: Schema.Attribute.Component<'shared.footer-link', true>;
+    helpLinks: Schema.Attribute.Component<'shared.footer-link', true>;
+    socialLinks: Schema.Attribute.Component<'shared.footer-link', true>;
+  };
+}
+
 export interface SharedHeroSlide extends Struct.ComponentSchema {
   collectionName: 'components_shared_hero_slides';
   info: {
@@ -154,6 +177,8 @@ declare module '@strapi/strapi' {
       'shared.call-to-action-section': SharedCallToActionSection;
       'shared.contact-section': SharedContactSection;
       'shared.featured-products-section': SharedFeaturedProductsSection;
+      'shared.footer-link': SharedFooterLink;
+      'shared.footer-section': SharedFooterSection;
       'shared.hero-slide': SharedHeroSlide;
       'shared.location-item': SharedLocationItem;
       'shared.media': SharedMedia;

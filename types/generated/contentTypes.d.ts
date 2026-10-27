@@ -632,6 +632,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
       'shared.featured-products-section',
       true
     >;
+    footerSection: Schema.Attribute.Component<'shared.footer-section', false>;
     heroSlides: Schema.Attribute.Component<'shared.hero-slide', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

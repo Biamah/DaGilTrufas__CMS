@@ -41,6 +41,11 @@
       "type": "component",
       "component": "shared.call-to-action-section",
       "repeatable": false
+    },
+    "footerSection": {
+      "type": "component",
+      "component": "shared.footer-section",
+      "repeatable": false
     }
   }
 }

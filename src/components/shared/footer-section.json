@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_footer_sections",
+  "info": {
+    "displayName": "FooterSection"
+  },
+  "options": {},
+  "attributes": {
+    "discoverLinks": {
+      "type": "component",
+      "component": "shared.footer-link",
+      "repeatable": true
+    },
+    "helpLinks": {
+      "type": "component",
+      "component": "shared.footer-link",
+      "repeatable": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "shared.footer-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
