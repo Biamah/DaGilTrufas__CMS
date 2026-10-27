@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "heroSlides": {
+      "type": "component",
+      "component": "shared.hero-slide",
+      "repeatable": true
+    },
+    "brandStories": {
+      "type": "component",
+      "component": "shared.brand-story",
+      "repeatable": true
+    },
+    "contactSection": {
+      "type": "component",
+      "component": "shared.contact-section",
+      "repeatable": false
+    },
+    "featuredProductsSection": {
+      "type": "component",
+      "component": "shared.featured-products-section",
+      "repeatable": true
+    },
+    "CallToActionSection": {
+      "type": "component",
+      "component": "shared.call-to-action-section",
+      "repeatable": false
+    }
+  }
+}

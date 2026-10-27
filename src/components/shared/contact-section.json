@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_contact_sections",
+  "info": {
+    "displayName": "ContactSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "component",
+      "component": "shared.location-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

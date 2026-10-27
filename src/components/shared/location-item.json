@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_location_items",
+  "info": {
+    "displayName": "LocationItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

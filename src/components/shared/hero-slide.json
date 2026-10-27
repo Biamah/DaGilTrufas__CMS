@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_hero_slides",
+  "info": {
+    "displayName": "hero-slide"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "copy": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tone": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    }
+  },
+  "config": {}
+}
